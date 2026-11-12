@@ -7,3 +7,16 @@ next-env.d.ts
 # build
 .next/
 tsconfig.tsbuildinfo
+
+# env
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# misc
+.DS_Store
+*.log
+coverage/
+out/
