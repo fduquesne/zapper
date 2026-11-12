@@ -5,3 +5,33 @@
   --font-display:
     var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
 }
+
+@theme {
+  /* Surfaces */
+  --color-background: #0b0e13;
+  --color-surface: #11151c;
+  --color-surface-raised: #161b24;
+
+  /* Borders */
+  --color-border: #1c232e;
+  --color-border-strong: #222a36;
+
+  /* Text */
+  --color-foreground: #e6eaf0;
+  --color-foreground-secondary: #c5cedc;
+  --color-muted: #8b95a5;
+  --color-subtle: #3a4556;
+
+  /* Accent */
+  --color-accent: #60a5fa;
+  --color-accent-hover: #93c5fd;
+  --color-accent-foreground: #08131f;
+  --color-accent-soft: #13233d;
+  --color-accent-soft-foreground: #bfd8ff;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+}

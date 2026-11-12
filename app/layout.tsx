@@ -11,7 +11,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <body>{children}</body>
+      <body className="bg-background font-sans text-foreground antialiased">
+        {children}
+      </body>
     </html>
   );
 }
