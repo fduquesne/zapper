@@ -1,7 +1,7 @@
 {
   "name": "zapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shuffle through any YouTuber’s videos with smart filters. Built with Next.js, TypeScript and Tailwind.",
   "private": true,
   "scripts": {
     "dev": "next dev",
