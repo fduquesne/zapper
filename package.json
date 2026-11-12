@@ -10,6 +10,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit"
   },
+  "packageManager": "pnpm@12.18.0",
   "license": "MIT",
   "dependencies": {
     "next": "^16.4.6",
